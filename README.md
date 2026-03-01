@@ -23,6 +23,4 @@ pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 uvicorn app:app --reload
 
-## 👩‍💻 Author
-Shreyosi Konar  
-B.Tech AIML | Asansol Engineering College
+
