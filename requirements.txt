@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+spacy
+scikit-learn
+jinja2
+python-multipart

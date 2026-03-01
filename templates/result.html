@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Generated UML</title>
+</head>
+<body>
+    <h2>Extracted Components</h2>
+    <h3>Classes</h3>
+    <ul>
+        {% for c in components.classes %}
+        <li>{{c}} (Confidence: {{confidence.classes[c]}})</li>
+        {% endfor %}
+    </ul>
+
+    <h3>Relationships</h3>
+    <ul>
+        {% for r in relationships %}
+        <li>{{r.from}} → {{r.to}} ({{r.type}})</li>
+        {% endfor %}
+    </ul>
+
+    <a href="/">Go Back</a>
+</body>
+</html>
